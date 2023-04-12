@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="En-têtesPrécompilés">
+      <UniqueIdentifier>{96905b04-9907-42b3-aac0-4d320c6f9b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dlls">
+      <UniqueIdentifier>{25079223-6d81-479c-b54b-df13047e3b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{a5b8be7c-8b4c-4dc0-ae94-ecb57b2335b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Actors">
+      <UniqueIdentifier>{f494168d-c28d-4599-8e4b-a0327c7c4437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Animations">
+      <UniqueIdentifier>{071af673-eec9-486e-bfcb-3f6d9218c80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML">
+      <UniqueIdentifier>{b578b887-48d2-4e26-b207-05175dfcc1f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes">
+      <UniqueIdentifier>{e79304d1-decb-454c-80c4-6cd84393ebe1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>En-têtesPrécompilés</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedGameObject.h">
+      <Filter>Game\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Game\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFrame.h">
+      <Filter>Game\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearAnimation.h">
+      <Filter>Game\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationState.h">
+      <Filter>Game\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorType.h">
+      <Filter>Game\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Game\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Radiation.h">
+      <Filter>Game\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="BombIdleAnimation.h">
+      <Filter>Game\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="BombExplosionAnimation.h">
+      <Filter>Game\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneResult.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Level01ContentManager.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerShip.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Level01.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scenetype.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentManager.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Publisher.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Subscriber.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>En-têtesPrécompilés</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Game\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Radiation.cpp">
+      <Filter>Game\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedGameObject.cpp">
+      <Filter>Game\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Game\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationFrame.cpp">
+      <Filter>Game\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearAnimation.cpp">
+      <Filter>Game\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="BombExplosionAnimation.cpp">
+      <Filter>Game\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="BombIdleAnimation.cpp">
+      <Filter>Game\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Level01.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Level01ContentManager.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerShip.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Publisher.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\extern\SFML\bin\openal32.dll">
+      <Filter>SFML</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-audio-2.dll">
+      <Filter>SFML</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-audio-d-2.dll">
+      <Filter>SFML</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-graphics-2.dll">
+      <Filter>SFML</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-graphics-d-2.dll">
+      <Filter>SFML</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-network-2.dll">
+      <Filter>SFML</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-network-d-2.dll">
+      <Filter>SFML</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-system-2.dll">
+      <Filter>SFML</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-system-d-2.dll">
+      <Filter>SFML</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-window-2.dll">
+      <Filter>SFML</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\extern\SFML\bin\sfml-window-d-2.dll">
+      <Filter>SFML</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
